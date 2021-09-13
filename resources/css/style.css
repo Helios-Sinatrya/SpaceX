@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    @apply text-lg md:text-2xl font-bold text-black;
+}
+.label-auth{
+    @apply text-base md:text-lg font-medium text-black;
+}
+.input-auth{
+    @apply block bg-white border-black border p-1 md:p-3 w-full;
+}
+
+
+
